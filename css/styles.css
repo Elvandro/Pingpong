@@ -1,6 +1,9 @@
 body {
   background-color: blue;
-  color: navy;
+  color: black;
+}
+h1 {
+  text-align: center;
 }
 .container-fluid {
   background-color: silver;
