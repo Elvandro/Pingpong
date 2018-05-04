@@ -8,6 +8,30 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1><strong>PING PONG</strong></h1>
+    <div class="container-fluid">
+      <h1><strong>PING PONG</strong></h1>
+    </div>
+    <div class="sidebar">
+      <h2>About ping pong</h2>
+      <h4>Created by</h4>
+      <p>Elvis Amuni</p>
+    </div>
+    <div class="container">
+      <h2><Strong>Let's play!</strong></h2>
+      <h3><strong>Rules:</strong><h3>
+      <p>Ping Pong will count up to your number with the following exceptions;</p>
+      <ol>
+        <li>Numbers divisible by three become ping</li>
+        <li>Numbers divisible by five become pong</li>
+        <li>Numbers divisible by fifteen become pingpong</li>
+      </ol>
+      <form class="pingform form-inline">
+        <div class="form-group">
+          <label for="number">Enter A Number</label>
+          <input type="number" id="number" name="number" value="" placeholder="Enter a number here...">
+        </div>
+        <button type="submit" class="btn btn-custom" id="submit" name="button">PING PONG</button>
+      </form>
+    </div>
   </body>
 </html>
