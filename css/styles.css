@@ -5,17 +5,45 @@ body {
 h1 {
   text-align: center;
 }
-.container-fluid {
+#header {
   background-color: silver;
+  margin: 20px;
+  height: 200px;
+  padding: 50px;
 }
 .sidebar {
   background: silver;
   float: left;
-  margin-top: 50px;
-  height: 100vh;
+  margin-top: 30px;
+  height: 70vh;
   padding: 20px;
+  margin-left: 20px;
 }
-.container {
+.container-fluid {
   margin-left: 300px;
   margin-top: 50px;
+  background-color: silver;
+  margin-right: 20px;
+}
+.jumbotron {
+  background-color: blue;
+  padding: 15px;
+  margin: 20px;
+  display: none;
+}
+h2 {
+  text-align: center;
+}
+#flipy {
+  font-size: 25px;
+}
+#flipy:hover {
+  text-decoration: underline;
+  color: navy;
+}
+p {
+  font-size: 18px;
+}
+h4 {
+  color: green;
 }

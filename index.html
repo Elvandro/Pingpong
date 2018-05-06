@@ -8,33 +8,40 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="header">
       <h1><strong>PING PONG</strong></h1>
     </div>
     <div class="sidebar">
       <h2>About ping pong</h2>
-      <h4>Created by</h4>
+      <h4>Created by:</h4>
       <p>Elvis Amuni</p>
+      <h4>Github Username/URL:<h4>
+      <a href="https://github.com/Elvandro/Hello_World.git">Elvandro</a>
+      <h4>Level 2 Test for:</h4>
+      Java
     </div>
-    <div class="container">
-      <h2><Strong>Let's play! This race is not for the swiftest,<br> but for the one who endures.</strong></h2>
+    <div class="container-fluid">
+      <h2><Strong><i>Welcome to the game. Let's play!</i></strong></h2>
+      <p id="flipy">Click here to view the rules.</p>
+      <div class="jumbotron">
       <h3><strong>Rules:</strong><h3>
       <p>Ping Pong will count up to your number with the following exceptions;</p>
       <ol>
-        <li>Numbers divisible by three become ping</li>
-        <li>Numbers divisible by five become pong</li>
-        <li>Numbers divisible by fifteen become pingpong</li>
+        <li>Numbers divisible by three become "ping"</li>
+        <li>Numbers divisible by five become "pong"</li>
+        <li>Numbers divisible by fifteen become "pingpong"</li>
       </ol>
       <form class="pingform form-inline">
         <div class="form-group">
-          <label for="number">Enter A Number</label>
-          <input type="number" id="number" name="number" value="" placeholder="Enter a number here...">
+          <label for="number">Enter your number here</label>
+          <input type="number" id="digit" name="number" value="" placeholder="">
         </div>
         <button type="submit" class="btn btn-custom" id="submit" name="button">PING PONG</button>
       </form>
-      <div class="resultsOutput">
-        <ul class="numbersList"></ul>
+      <div class="results">
+        <ul class="List"></ul>
       </div>
+    </div>
     </div>
   </body>
 </html>
