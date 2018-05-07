@@ -15,7 +15,7 @@ The application currently runs smoothly. In case you come across any issues feel
   * `ping` - This output will only be shown if a number is divisible by 3.
   * `pong` - This output is shown when a number is divisible by 5.
   * `pingpong` - This output is a result of a number being divisible by 15.
-  *  The final result is the number itself if it not divisible by any of the parameters.
+  *  The final result is the number itself, if it not divisible by any of the parameters.
 ## Built Using
 HTML, CSS and JQuery.
 ## Contact details
